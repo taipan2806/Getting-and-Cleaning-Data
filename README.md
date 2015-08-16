@@ -3,6 +3,7 @@ Purpose of this file
 Purpose of this file is to provide basic information about the project, its requirements and its reproducibility.
 Project
 =======
+This project is the course project of Coursera's course "Getting and Cleaning Data", started on Aug. 3rd 2015.
 Purpose
 -------
 Purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. 
