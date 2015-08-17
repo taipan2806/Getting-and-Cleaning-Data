@@ -1,3 +1,10 @@
+# Preparation
+#################################################
+
+#Clear Global Environment
+rm(list=ls())
+
+
 library(plyr)
 
 # Step #1 (Merge training and test set to 1 data set)
@@ -63,11 +70,13 @@ HAR_data_aggregated<-HAR_data_aggregated[order(HAR_data_aggregated$Subject,HAR_d
 #Save data in file
 write.table(HAR_data_aggregated, "tidydata.txt", row.name=FALSE)
 
+# Step #6 (Baisc quality check)
+#################################################
 #Quality check: Read file and check whether there are 181 lines (30 subjects with 6 activities + 1 header line)
 file <- read.delim("tidydata.txt", header = FALSE, sep=" ")
 qc <- "Quality Check: Pass"
 if(length(file[,1]) != 181){
     qc <- "Quality Check: Fail"
-} 
+}
 #Show quality check's result
 qc
