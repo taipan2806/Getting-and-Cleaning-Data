@@ -68,9 +68,9 @@ HAR_data_aggregated<-aggregate(. ~Subject + Activity, HAR_data, mean)
 HAR_data_aggregated<-HAR_data_aggregated[order(HAR_data_aggregated$Subject,HAR_data_aggregated$Activity),]
     
 #Save data in file
-write.table(HAR_data_aggregated, "tidydata.txt", row.name=FALSE)
+write.table(HAR_data_aggregated, "TidyData.txt", row.name=FALSE)
 
-# Step #6 (Baisc quality check)
+# Step #6 (Basic quality check)
 #################################################
 #Quality check: Read file and check whether there are 181 lines (30 subjects with 6 activities + 1 header line)
 file <- read.delim("tidydata.txt", header = FALSE, sep=" ")
