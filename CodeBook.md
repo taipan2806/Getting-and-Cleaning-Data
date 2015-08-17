@@ -1,6 +1,7 @@
 ##Purpose of this file
 This file provides additional information about the variables, data and transformations used in the course Getting and Cleaning Data.
-##Project Overview
+##Project
+Human Activity Recognition Using Smartphones Data Set
 ###Abstract
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 ###Data Set Information	
