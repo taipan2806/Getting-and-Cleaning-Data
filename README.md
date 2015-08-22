@@ -24,7 +24,7 @@ Requirements
 To run script run_analysis.R, R-Studio is required including installed package plyr.
 run_analysis.R
 ==============
-This script produces requested file is 6 steps:<br>
+This script produces requested file in 6 steps:<br>
 1. Merges training and test sets to 1 data set<br>
 2. Subsets measurements to mean and standard deviation data<br>
 3. Replaces activity id to name<br>
