@@ -34,7 +34,7 @@ This script produces requested file in 6 steps:<br>
 Reproducibility
 ===============
 To run the script, do following steps:<br>
-1. Copy data in R-Studio's work directory<br>
+1. Copy data (folder UCI HAR Dataset with all its files) in R-Studio's working directory<br>
 2. In R-Studio load script run_analysis.R<br>
 3. Run script run_analysis.R<br>
 4. Check quality checks' result
