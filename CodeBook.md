@@ -44,11 +44,11 @@ The body acceleration signal obtained by subtracting the gravity from the total 
 **train/Inertial Signals/body_gyro_x_train.txt**  
 The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.  
 ## Transformation Information
-After downloading and uncompressing the data, the resulting directory UCI HAR Dataset are copied to R-Studio's working directory.
+After downloading and uncompressing the data, the resulting directory UCI HAR Dataset is copied to R-Studio's working directory.
 ###Preparation
 Clear Global Environment
 ###Step #1 (Merge training and test set to 1 data set)
-After loading files into tables, train and test data are merged into variables train_data and test_data. These 2 data sets are merged to HAR_data using rbind and column names are renamed.
+After loading files into tables, train and test data are merged into variables train_data and test_data. Subsequently, these 2 data sets are merged to HAR_data using rbind() and column names are renamed.
 ###Step #2 (Extract mean and standard deviation)
 Columns containing mean and standard deviation data are subset; subject and activity column are added.
 ###Step #3 (Replace activity codes by activity names)
